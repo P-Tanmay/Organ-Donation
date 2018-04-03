@@ -1,0 +1,1394 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Pragati+Narrow|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Lato|Pragati+Narrow|Righteous');
+
+
+
+/************************************************** HOME PAGE START **************************************************/
+
+/************************************************** header start **************************************************/
+
+
+.hidden{
+  display: none;
+}
+
+
+.header {
+
+  /* border-width: thick;
+
+  border-bottom: 2px dotted #e80000; */
+}
+
+
+.title-bar {
+    background-color: Transparent;
+    color: black;
+}
+
+
+
+
+
+#logoImg {
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 5px;
+  /* padding-top: 10px; */
+  margin-bottom: 15px;
+}
+
+.liner{
+  display: inline-block;
+}
+
+.liner2{
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+#hamMenu{
+  background-color: Transparent;
+}
+
+#ulcon{
+  background-color: Transparent;
+}
+
+.top-bar, .top-bar ul{
+  /* background-color: #e80000; */
+  /* background-color: Transparent; */
+}
+
+.title-bar{
+  /* background-color: Transparent; */
+  color: black;
+}
+
+.top-bar ul li a{
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  transition: all .8s;
+  font-family: 'Lato', sans-serif;
+  color: #e80000;
+  /* background-color: white; */
+}
+
+.top-bar ul li a:hover{
+  background-color: #e80000;
+  color: white;
+  /* border-radius: 10px; */
+}
+
+/* .top-bar ul li a:focus{
+  background-color: #e80000;
+  border-radius: 10px;
+  color: #ffffff;
+} */
+
+.menu-icon{
+  color: black;
+}
+
+/************************************************** header end **************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************Home about section start **************************************************/
+
+
+
+
+.vidMain{
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.vidCon{
+  z-index: -100;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 70%;
+  /* width: 100% !important;
+  height: auto !important; */
+}
+
+.aboutCon{
+  background-image: url("../images/about_bg.jpg");
+  background-attachment: fixed;
+}
+
+.abthead{
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-family: 'Righteous', cursive;
+  color: black;
+}
+
+.maininfoCon{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.infoCon{
+  border-right: 2px solid #e80000;
+  padding-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10%;
+}
+
+.infoCon:last-child{
+  border-right: 0px solid #e80000;
+}
+
+.imgOrg{
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.inforOrg{
+  text-align: center;
+  color: #565656;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.ontFact{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 0px;
+  line-height: 130%;
+  color: #565656;
+}
+
+.ontFact::first-letter{
+  font-size: 25px;
+  font-family: serif;
+  letter-spacing: 3px;
+  color: #e80000;
+}
+
+.spn3{
+  font-weight: bold;
+  font-size: 20px;
+  color: #e80000;
+}
+
+.knowAbt{
+  padding: 8px;
+  background-color: Transparent;
+  font-size: 30px;
+  border: 1.5px solid #e80000;
+  color: #e80000;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  display: block;
+  transition: .5s;
+  margin-bottom: 20px;
+}
+
+.knowAbt:hover{
+  background-color: #e80000;
+  color: #ffffff;
+}
+
+.knowAbt:hover a{
+  color: #ffffff;
+}
+
+.knowAbt a{
+  color: #e80000;
+  transition: .5s;
+}
+
+/**************************************************Home about section end **************************************************/
+
+
+/************************************************** event section **************************************************/
+
+
+.event {
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+
+
+
+.img_cms {
+  margin-left: 30px;
+  padding: 0px 30px 0px 30px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.imgg_cms {
+  margin-left: px;
+}
+
+.events_section {
+  float: right;
+  width: 40%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.event_head   {
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Righteous', cursive; */
+}
+
+
+.event_ {
+  font-family: 'Pragati Narrow', sans-serif;
+  border-bottom: 2px solid #e80000;
+  width: 80%;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+
+#event_title {
+  padding-top: 20px;
+  /* font-size: 45px; */
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+
+#event_head {
+  color: #50acba;
+}
+
+
+
+/************************************************** event section end **************************************************/
+
+
+/************************************************** statics section start **************************************************/
+
+#statics {
+  text-align: center;
+  margin: 0 auto;
+  /* height: 400px; */
+    background-image: url("../images/about_bg.jpg");
+    background-attachment: fixed;
+}
+
+.statsImg{
+  /* padding-top: 30px; */
+  width: 60%;
+}
+
+.textCon{;
+  margin-top: 15px;
+}
+
+.statsText{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #565656;
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+.statsText::first-letter{
+  padding-top: 15px;
+  font-size: 30px;
+  color: #e80000;
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+.statsTextSpan{
+  color: #e80000;
+  font-size: 30px;
+}
+
+/************************************************** statics section end **************************************************/
+
+/************************************************** footer start **************************************************/
+
+.footHeadcon{
+  clear: both;
+  overflow: hidden;
+}
+
+.copyrights{
+  text-align: center;
+  font-size: 10px;
+  color: #565656;
+  margin-top: 10px;
+}
+
+.footHead{
+  clear: both;
+  font-family: 'Righteous', cursive;
+  margin: 0 auto;
+  display: block;
+  color: black;
+  overflow: hidden;
+  text-align: center;
+  font-size: 34px;
+}
+
+.footHead2{
+  clear: both;
+  font-family: 'Pragati Narrow', sans-serif;
+  margin: 0 auto;
+  display: block;
+  color: #e80000;
+  overflow: hidden;
+  width: 80%;
+  line-height: 120%;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 25px;
+}
+
+.socialCon{
+  text-align: center;
+}
+
+.socialimg{
+  opacity: 1;
+  width: 50px;
+  margin: 20px 10px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+.socialimg:hover{
+  opacity: .9;
+  transform: scale(1.1,1.1);
+}
+
+
+.footFeedBox {
+  padding-top: 30px;
+}
+
+.footFeed{
+  color: white;
+  background-color: #e80000;
+  width: 60%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ffaaa3;
+  margin-left: 20%;
+  margin-right: 20%;
+  transition: all .8s;
+}
+
+.footFeed:hover {
+  color: #e80000;
+  background-color: white;
+}
+
+.footFeed:focus{
+  color: BLACK;
+  background-color: white;
+}
+
+
+.FeedSubmit{
+  width: 20%;
+  padding: 12px 20px;
+  border: 1px solid #ffaaa3;
+  transition: all .5s;
+  border-radius: 2px;
+  color: #e80000;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 20%;
+}
+
+.FeedSubmit:hover{
+  border: 1px solid #e80000;
+  color: #ffffff;
+  background-color: #e80000;
+}
+
+#btmlink{
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 30px;
+  color: #e80000;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.btmCell{
+
+  background-image: url("../images/about_bg.jpg");
+  background-attachment: fixed;
+  /* margin-top: 15px; */
+}
+
+.footer {
+  background-color: #efefef;
+}
+
+.pader{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: white;
+  background-attachment: fixed;
+}
+
+/************************************************** footer end **************************************************/
+
+/************************************************** HOME PAGE END **************************************************/
+
+/************************************************** REGISTARE PAGE START **************************************************/
+
+.donateHead{
+  color: #565656;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Righteous', cursive;
+}
+
+.donateHead2{
+  color: #565656;
+  font-size: 33px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.donateHead3{
+  color: #565656;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.formInp{
+  color: white;
+  background-color: #e80000;
+  width: 50%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ffaaa3;
+  transition: all .8s;
+}
+
+.formInp:focus{
+  color: BLACK;
+  background-color: white;
+}
+
+
+#formInp{
+  color: white;
+  background-color: #e80000;
+  width: 50.8%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ffaaa3;
+  transition: all .8s;
+}
+
+#formInp:focus{
+  color: BLACK;
+  background-color: white;
+}
+
+
+
+.formInp:hover{
+  color: #e80000;
+  background-color: white;
+}
+
+.inliner{
+  display: inline-block;
+}
+
+.textarea {
+  display: inline-block;
+  width: 50%;
+}
+
+.margSet{
+  margin-bottom: 10px;
+}
+
+.InfoDonate{
+  font-size: 25px;
+  color: #565656;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  width: 70%;
+  line-height: 120%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.RegisterLink{
+  text-align: center;
+  font-size: 20px;
+  color: #e80000;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.rform {
+  padding: 50px 0px 50px 0px;
+  background-image: url("../images/about_bg.jpg");
+  background-attachment: fixed;
+}
+
+
+.formcon{
+  margin-top: 30px;
+}
+
+/************************************************** REGISTARE PAGE END **************************************************/
+
+
+
+
+
+
+/************************************************** ABOUT PAGE START **************************************************/
+.videoStory{
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+}
+
+
+#p_2 {
+  background-image: url("../images/about_bg.jpg");
+  background-attachment: fixed;
+}
+
+#p_4 {
+  background-image: url("../images/about_bg.jpg");
+  background-attachment: fixed;
+}
+
+#p_6 {
+  background-image: url("../images/about_bg.jpg");
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+#setter1{
+  margin-top: 10px;
+}
+
+#setter2{
+  margin-top: 10px;
+}
+
+
+
+#setter4{
+  margin-top: 10px;
+}
+
+#setter5{
+  margin-top: 10px;
+}
+
+#setter6{
+  margin-top: 10px;
+}
+
+.orgnAbt{
+  width: 110%;
+  margin-top: 45px;
+}
+
+.orgnPara{
+  font-size: 29px;
+  line-height: 90%;
+  text-align: left;
+  color: #565656;
+  padding: 15px 0px;
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+.orgnParaR{
+  font-size: 29px;
+  line-height: 90%;
+  padding: 15px 0px;
+  text-align: right;
+  font-family: 'Pragati Narrow', sans-serif;
+  color: #565656;
+}
+
+
+#organPara1 {
+  padding-top: 120px;
+}
+
+.orgnParaMain{
+  font-size: 32px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 125%;
+  text-align: center;
+  font-family: 'Pragati Narrow', sans-serif;
+  color: #565656;
+}
+
+.setter{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.paraCon{
+  padding: 2%;
+}
+
+.abtheadPg{
+  text-align: center;
+  margin: 10px;
+  /* font-size: 40px; */
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Righteous', cursive;
+  color: #e80000;
+}
+
+/************************************************** ABOUT PAGE END **************************************************/
+
+/************************************************** INDEX CLIENT SIDE PAGE START **************************************************/
+
+
+
+.adminLog{
+  font-size: 45px;
+  color: black;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  letter-spacing: 1px;
+
+}
+
+#adminLog {
+  font-size: 45px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+
+.login_index_1 {
+  border-radius: 7px;
+  margin: 0 auto;
+  width: 500px;
+  border: 2px solid #e80000;
+  margin-top: 150px;
+  padding: 50px;
+  padding-bottom: 70px;
+}
+
+.login {
+  /* margin-top: 20px; */
+}
+
+.inputUser{
+  font-size: 18px;
+  color: white;
+  background-color: #e80000;
+  width: 70%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ffaaa3;
+  margin: 0 auto;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+}
+.inputUser:hover{
+  color: #e80000;
+  background-color: white;
+}
+
+.inputUser:focus{
+  color: BLACK;
+  background-color: white;
+}
+
+
+/* .inputUser:focus{
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid #e80000;
+  border-radius: 15px;
+  background-color: #eaeaea;
+} */
+
+
+.homeLnk2{
+  width: 13%;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+  color: #e80000;
+  border-bottom: 2px solid #e80000;
+  margin-left: 100px;
+    transition: all .5s;
+}
+
+.homeLnk2:hover{
+  /* border: 2px solid #e80000; */
+  padding-left: 10px;
+  color: grey;
+}
+
+
+
+.logIN{
+  width: 70%;
+  padding: 7px 13px;
+  border: 1px solid #ffaaa3;
+  border-radius: 2px;
+  color: #e80000;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 15%;
+  /* margin-right: 10%; */
+  font-size: 20px;
+}
+
+.logIN:hover{
+  background-color: #e80000;
+  color: #ffffff;
+}
+
+
+
+
+
+
+/* admin index page */
+.admin_index_page {
+  text-align: center;
+}
+
+.homeLnk{
+  width: 40%;
+  padding: 40px 20px 40px 20px;
+  font-size: 25px;
+  color: White;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #e80000;
+  background-color: #e80000;
+}
+
+.homeLnk:hover{
+  /* border: 2px solid #e80000; */
+  color: #e80000;
+  background-color: white;
+}
+
+.adminLog {
+  margin-top: 50px;
+}
+
+.admin_index_1 {
+  margin-top: 20px;
+}
+.eedit {
+  margin: 0 auto;
+  width: 40%;
+}
+
+
+.logout {
+  width: 7%;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+  color: White;
+  display: block;
+  border: 2px solid #e80000;
+  background-color: #e80000;
+  margin-left: 80%;
+  /* margin-bottom: 10%; */
+}
+
+.logout:hover {
+  color: #e80000;
+  background-color: white;
+  margin-left: 80%;
+}
+/* admin index page end */
+/************************************************** INDEX CLIENT SIDE PAGE END **************************************************/
+
+
+/************************************************** edit_details page end **************************************************/
+
+
+
+
+.inputEventsDetails{
+  background-color: #e80000;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid #ffaaa3;
+  transition: all .8s;
+  margin: 0 auto;
+  transition: all .5s;
+  padding: 10px;
+  color: #ffffff;
+  height: 45%;
+}
+
+.inputEventsDetails::placeholder{
+  color: #ffffff;
+}
+
+
+.inputEventsDetails:hover{
+  box-sizing: border-box;
+  border: 1px solid #e80000;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #e80000;
+}
+
+
+.inputEvents:focus{
+  color: #e80000;
+}
+
+.inputEventsLeft:focus{
+  color: #e80000;
+}
+
+.inputEventsDetails:focus{
+  color: #e80000;
+}
+
+
+
+.inputEvents{
+  background-color: #e80000;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid #ffaaa3;
+  transition: all .8s;
+  margin: 0 auto;
+  transition: all .5s;
+  padding: 10px;
+  float: left;
+  height: 45%;
+  color: #ffffff;
+}
+
+.inputEvents::placeholder{
+  color: #ffffff;
+}
+
+
+.inputEvents:hover{
+  box-sizing: border-box;
+  border: 1px solid #e80000;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #e80000;
+}
+
+.inputEventsLeft{
+  background-color: #e80000;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid #ffaaa3;
+  transition: all .8s;
+  margin: 0 auto;
+  transition: all .5s;
+  padding: 10px;
+  float: right;
+  height: 45%;
+  color: #ffffff;
+}
+
+.inputEventsLeft::placeholder{
+  color: #ffffff;
+}
+
+
+.inputEventsLeft:hover{
+  box-sizing: border-box;
+  border: 1px solid #e80000;
+  border-radius: 5px;
+  color: #e80000;
+  background-color: #ffffff;
+}
+
+.clientEvents{
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 25px;
+  color: #e80000;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clientEventsRight{
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 25px;
+  color: #e80000;
+  margin-right: 83%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clientEventsDetails{
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 25px;
+  color: #e80000;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+.Updater{
+  padding: 10px;
+  color: #e80000;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  background-color: #ffffff;
+  border: 1.5px solid #e80000;
+  transition: all .8s;
+}
+
+
+.Updater:hover{
+  background-color: #e80000;
+  color: #ffffff;
+}
+
+/************************************************** edit_details page end **************************************************/
+
+
+/************************************************** admin_add page start **************************************************/
+
+
+
+.imgPoster{
+  font-size: 30px;
+  color: #e80000;
+}
+
+.add_form {
+padding: 20px;
+}
+
+
+.Updater2{
+  padding: 10px;
+  color: #e80000;
+  display: block;
+  background-color: #ffffff;
+  border: 1.5px solid #e80000;
+  transition: all .8s;
+}
+
+
+.Updater2:hover{
+  background-color: #e80000;
+  color: #ffffff;
+}
+
+/************************************************** admin_add page end **************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.aboutorgan p {
+  width: 650px;
+}
+
+.aboutorgan img {
+  width: 50px;
+}
+
+
+.whyorgan {
+  background-color: #efefef;
+  display: block;
+}
+
+.registerSection{
+  height: 100px;
+}
+
+.part1 {
+  float: left;
+}
+.part2 {
+  float: right;
+}
+
+
+.stats_section {
+  background-color: grey;
+}
+.left {
+  background-color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1023px){
+
+
+  .vidMain{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .vidCon{
+    z-index: -100;
+    position: fixed;
+    width: 80%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* width: 100% !important;
+    height: auto !important; */
+  }
+
+
+
+  .orgnAbt{
+    width: 90%;
+  }
+
+  .orgnPara{
+    font-size: 25px;
+    line-height: 125%;
+    text-align: left;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  .setter{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .paraCon{
+    padding: 1%;
+  }
+
+  .orgnPara{
+    font-size: 25px;
+    line-height: 110%;
+    text-align: left;
+    color: #565656;
+    padding: 15px 0px;
+    font-family: 'Pragati Narrow', sans-serif;
+  }
+
+  .orgnParaR{
+    font-size: 25px;
+    line-height: 110%;
+    padding: 15px 0px;
+    text-align: right;
+    font-family: 'Pragati Narrow', sans-serif;
+    color: #565656;
+  }
+
+  .clientEvents{
+    margin-left: 0%;
+  }
+
+  .clientEventsRight{
+    margin-right: 0%;
+  }
+
+  .inputEvents{
+    float: none;
+  }
+
+  .inputEventsLeft{
+    float: none;
+  }
+
+  .inputEventsDetails{
+    float: none;
+  }
+
+  .videoStory{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+  /************************************************** HOME PAGE START **************************************************/
+
+  /************************************************** video section start **************************************************/
+
+  .vidMain{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .vidCon{
+    z-index: -100;
+    position: fixed;
+    top: 0px;
+    width: 80%;
+    left: 0px;
+    right: 0px;
+    /* width: 100% !important;
+    height: auto !important; */
+  }
+
+  /************************************************** video section end **************************************************/
+
+  /************************************************** about section start **************************************************/
+
+  .infoCon{
+    padding-left: 10%;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10%;
+  }
+
+  /************************************************** about section end **************************************************/
+
+  /************************************************** HOME PAGE END **************************************************/
+
+  /************************************************** ABOUT PAGE START **************************************************/
+
+  .videoStory{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+  }
+
+  #setter1{
+    margin-top: 20px;
+  }
+
+  #setter2{
+    margin-top: 20px;
+  }
+
+  #setter4{
+    margin-top: 20px;
+  }
+
+  #setter5{
+    margin-top: 20px;
+  }
+
+  #setter6{
+    margin-top: 20px;
+  }
+
+  .orgnAbt{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 35px;
+  }
+
+  .orgnPara{
+    font-size: 29px;
+    line-height: 120%;
+    text-align: center;
+    color: #565656;
+    padding: 15px 0px;
+    font-family: 'Pragati Narrow', sans-serif;
+  }
+
+  .abtheadPg{
+    font-size: 40px;
+  }
+
+  .orgnParaR{
+    font-size: 29px;
+    line-height: 120%;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: 'Pragati Narrow', sans-serif;
+    color: #565656;
+  }
+
+  .orgnParaMain{
+    font-size: 32px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 125%;
+    text-align: center;
+    font-family: 'Pragati Narrow', sans-serif;
+    color: #565656;
+  }
+
+  /************************************************** ABOUT PAGE END **************************************************/
+  /************************************************** REGISTER PAGE START **************************************************/
+
+  .formRad{
+    margin-left: 18%;
+  }
+
+  .gender{
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 5%;
+    font-family: 'Oxygen', sans-serif;
+    color: #565656;
+    font-size: 25px;
+  }
+
+    /************************************************** REGISTER PAGE END **************************************************/
+
+
+    .clientEvents{
+      margin-left: 0%;
+    }
+
+    .clientEventsRight{
+      margin-right: 0%;
+    }
+
+    .clientEventsDetails{
+      margin-left: 0%;
+      text-align: center;
+    }
+
+    .inputEvents{
+      margin-right: 0%;
+      margin: 0 auto;
+      display: block;
+      float: none;
+    }
+
+    .inputEventsLeft{
+      margin-left: 0%;
+      margin: 0 auto;
+      display: block;
+      float: none;
+    }
+
+}

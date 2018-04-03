@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="good" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#6D6D6D;stroke-width:7;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#A6D0D9;stroke-width:12;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#E61E25;stroke-width:12;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#C76EAC;stroke-width:12;stroke-miterlimit:10;}
+	.st4{fill:#3778BC;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:102px;}
+	.st7{fill:#E61E25;}
+
+
+
+.good st0 {
+-webkit-animation: rotation 2s infinite linear;
+	-moz-animation: rotation 2s infinite linear;
+	-o-animation: rotation 2s infinite linear;
+	animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+@-moz-keyframes rotation {
+    from {-moz-transform: rotate(0deg);}
+    to   {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes rotation {
+    from {-o-transform: rotate(0deg);}
+    to   {-o-transform: rotate(359deg);}
+}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(359deg);}
+}
+
+
+</style>
+
+
+
+<g id="Layer_1">
+
+	<path class="st0" d="M114.5,130.1c-90.4,98.7-87.8,252,7.7,347.5c98.2,98.2,257.4,98.2,355.6,0c96-96,98.1-250.3,6.5-348.9"/>
+	<path class="st1" d="M551.3,288.9C545.5,155.2,435.3,48.6,300.2,48.6c-138.9,0-251.4,112.6-251.4,251.4
+		c0,135.7,107.6,246.4,242.1,251.3"/>
+</g>
+<g id="Layer_2">
+	<path class="st0" d="M148.9,465.1c87.8,80.4,224.2,78.1,309.2-6.9c87.4-87.4,87.4-229.1,0-316.4c-85.4-85.4-222.7-87.3-310.4-5.7"
+		/>
+	<path class="st2" d="M290.1,76.3C171.2,81.6,76.3,179.6,76.3,299.9c0,123.6,100.2,223.8,223.8,223.8
+		c120.8,0,219.2-95.7,223.6-215.5"/>
+</g>
+<g id="Layer_3">
+	<path class="st0" d="M444.4,432.2c70.4-76.8,68.4-196.1-6-270.5c-76.4-76.4-200.4-76.4-276.8,0c-74.7,74.7-76.4,194.8-5,271.6"/>
+	<path class="st3" d="M104.3,308.6c4.6,104.1,90.4,187,195.5,187c108.1,0,195.7-87.6,195.7-195.7c0-105.7-83.7-191.8-188.5-195.6"/>
+	<text transform="matrix(1 0 0 1 195 292)" class="st4 st5 st6">1600</text>
+	<text transform="matrix(1 0 0 1 270 400)" class="st7 st5 st6">+</text>
+</g>
+</svg>
